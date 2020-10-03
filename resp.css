@@ -1,0 +1,40 @@
+iframe {
+    width: 800px ;
+    height: 480px;
+}
+
+@media (max-width: 1200px ) {
+    iframe {
+        width: 600px ;
+        height: 340px;
+    }
+}
+
+@media (max-width: 760px ) {
+    iframe {
+        width: 400px ;
+        height: 240px;
+    }
+}
+
+
+@media (max-width: 490px ) {
+    iframe {
+        width: 390px ;
+        height: 220px;
+    }
+    #heading {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 380px ) {
+    iframe {
+        width: 325px;
+        height: 183px;
+    }
+    #heading {
+        font-size: 0.8rem;
+    }
+}
+

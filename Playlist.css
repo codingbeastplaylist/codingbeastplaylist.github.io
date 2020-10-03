@@ -1,0 +1,106 @@
+#button a {
+    text-decoration: none;
+    color: black;
+}
+
+#button:hover {
+    text-decoration: white;
+    color: white;
+}
+
+#button a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.change {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 2px 0px;
+    background-color: #f8f9fa  ;
+}
+
+#vp {
+    margin: 0px;
+    padding: 20px;
+    background-color: #f8f9fa ;
+}
+
+.hide {
+    position: absolute;
+    left: 71% ;
+    top : 13%;
+    background: black;
+    color: white;
+    font-weight: bold;
+    padding: 2px 3px;
+}
+
+#myalbum {
+    margin-top: 0px;
+    padding-top: 20px !important ;
+}
+
+.text {
+    text-align: center;
+    padding: 2px ;
+    margin: 2px;
+    padding-bottom: 20px;
+}
+
+#list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#list li {
+    padding: 0px 20px;
+}
+
+#fbtn {
+    background: none;
+	color: white;
+	border: none;
+    padding: 0px;
+    padding-top: 15px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#fbtn:hover {
+    text-decoration: underline;
+}
+
+#flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.change form {
+    margin: 0px 40px;
+    width: 30%;
+}
+
+#wbtn {
+    width: 100%;
+    font-size: 1.1rem;
+}
+
+#wbtnA {
+    width: 100%;
+    font-size: 1.1rem;
+    background: #6c757d;
+    color: white;
+}
+
+
+
+
+
